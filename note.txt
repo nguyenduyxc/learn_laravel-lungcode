@@ -1,0 +1,29 @@
+- cac thu muc hay thao tac 
+    - app
+        - http
+        - Models
+        - Providers
+    - resources
+        - view
+    - routes
+        - api
+        - web
+    - public
+
+- run prj 
+    c1: php artisan serve --port=3030
+    c2: http://localhost/learn_lrv8/public/
+
+- Laravel su dung mo hinh MVC
+- Route dinh nghia cac dg link
+    - routes/web.php
+- Co che MVC 
+    controller: Noi xu ly cac request
+        views: hien thi dl
+        model: thao tac vs csdl 
+
+- Controller
+    tao controller: php artisan make:controller ExampleController
+- Models    
+    tao model: php artisan make:model Example
+
