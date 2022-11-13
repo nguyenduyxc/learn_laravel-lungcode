@@ -45,6 +45,30 @@
         @endforeach
     </ul>
 
+
+
+    {{-- test component --}}
+    <h3 class="text-center">Compotents</h3>
+    {{-- <x-alert type="success"> </x-alert> {{-- c1 truyen bien   --}}
+    <x-alert :type="'success'"/>  {{-- c2 truyen bien --}}
+
+    <x-hehe />
+
+
+    <hr>
+    <div class="container">
+      
+      <div class="row ">
+        <x-product name="Duy1" image="image"> </x-product>
+        <x-product name="Duy2" image="image"> </x-product>
+        <x-product name="Duy3" image="image"> </x-product>
+        <x-product name="Duy4" image="image"> </x-product>
+        <x-product name="Duy5" image="image"> </x-product>
+        <x-product :name="'Duy6'" :image="'image2'" />
+      </div>
+    </div>
+
+     {{--End  test component --}}
       
     
   </main>
